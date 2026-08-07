@@ -1,4 +1,4 @@
-package com.company.aibiplatform.dto;
+package com.company.aibiplatform.client.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

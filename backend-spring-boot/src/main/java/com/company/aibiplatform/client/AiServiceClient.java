@@ -1,11 +1,11 @@
 package com.company.aibiplatform.client;
 
-import com.company.aibiplatform.dto.CustomerSegmentRequest;
-import com.company.aibiplatform.dto.CustomerSegmentResponse;
-import com.company.aibiplatform.dto.RestockRecommendationRequest;
-import com.company.aibiplatform.dto.RestockRecommendationResponse;
-import com.company.aibiplatform.dto.SalesForecastRequest;
-import com.company.aibiplatform.dto.SalesForecastResponse;
+import com.company.aibiplatform.client.dto.CustomerSegmentRequest;
+import com.company.aibiplatform.client.dto.CustomerSegmentResponse;
+import com.company.aibiplatform.client.dto.RestockRecommendationRequest;
+import com.company.aibiplatform.client.dto.RestockRecommendationResponse;
+import com.company.aibiplatform.client.dto.SalesForecastRequest;
+import com.company.aibiplatform.client.dto.SalesForecastResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
